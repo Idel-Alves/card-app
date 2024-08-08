@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --black: #000;
+    --gray: #515151;
+    --orange: #f85206;
+    --orange-ligth: rgba(248, 150, 22, 0.377);
+    --orange-background-button: #EF820D; 
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+#card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 1047px;
+    margin-inline: auto;
+    height: 100vh;
+}
+
+#header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-card ion-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#header-card p {
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: 600;
+}
+
+#vacancy-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#vacancy-details #vacancy-icon ion-icon {
+   padding: 1.5rem; 
+   color: var(--orange);
+   background-color: var(--orange-ligth);
+   border-radius: 100%;
+   font-size: 3rem;
+}
+
+#vacancy-location,
+#vacancy-price {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+#vacancy-location strong,
+#vacancy-price strong {
+    font-size: 2rem;
+}
+
+#vacancy-location span,
+#vacancy-price span {
+    font-size: 1.4rem;
+    color: var(--gray);
+}
+
+#vacancy-price strong {
+    color: var(--orange);
+} 
+
+#daily {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
+
+#daily #start-date,
+#daily #end-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+#daily #start-date .date-icon,
+#daily #end-date .date-icon {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#daily #start-date ion-icon,
+#daily #end-date ion-icon {
+    color: var(--orange);
+}
+
+#daily #total-daily {
+    text-align: right;
+}
+
+#daily #total-daily strong {
+    font-size: 2rem;
+}
+
+#daily #total-daily span,
+#payment #total-price span {
+    color: var(--orange);
+}
+
+#payment {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#payment #price-daily,
+#payment #payment-rate,
+#payment #discount {
+    display: flex;
+    justify-content: space-between;
+}
+
+#payment #total-price {
+    text-align: right;
+    font-size: 2rem;
+}
+
+#card button {
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 1rem 2rem;
+    color: #FFF;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+#card button:hover {
+    background-color: var(--orange-background-button);
+    transform: scale(1.1);
+}
