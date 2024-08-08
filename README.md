@@ -9,7 +9,7 @@
 </ul>
 
 ## Descrição do Projeto
-O projeto é um card de pagemnto de aplicativo de reserva de vaga de carro, foi desenvolvido levando em consideração um layout moderno.
+O projeto é um card de pagamento de aplicativo de reserva de vaga de carro, foi desenvolvido levando em consideração um layout moderno.
 
 ## Objetivos com o projeto
 #### Aprimorar o conhecimento em:
