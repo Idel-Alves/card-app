@@ -17,6 +17,7 @@ O projeto é um card de pagemnto de aplicativo de reserva de vaga de carro, foi 
    <li>Display Flex</li>
    <li>Layout Responsivo</li>
    <li>Acessibilidade nas cores e na fonte</li>
+  <li>Variável CSS (Nesse projeto usei nas Cores)</li>
   <li>Estilização e evento hover de botão</li>
 </ul>
 
